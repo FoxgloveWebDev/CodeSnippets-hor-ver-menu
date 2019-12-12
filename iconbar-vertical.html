@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+
+<!-- To ensure proper rendering and touch zooming on mobile phones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MyCodeSnippets | Menu | Barre d'icônes verticale</title>
+
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+
+    .icon-bar {
+        width: 100px; /* Specific width for Icon Bar */
+        background-color: #555;
+    }
+
+    .icon-bar a {
+        display: block; /* makes links appear below each other */
+        font-size: 36px; /* Change size of icons */
+        color: white;
+        text-align: center;
+        padding: 20px;
+        transition: all 0.3s ease;
+    
+    }
+
+    .icon-bar a:hover {
+        background-color: #000;
+    }
+
+    .active {
+        background-color: #FF5733; /* Color for active link */
+    }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="container">
+        <div class="icon-bar">
+            <a href="#" class="active"><i class="fa fa-home"></i></a>
+            <a href="#"><i class="fa fa-search"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+            <a href="#"><i class="fa fa-map"></i></a>
+            <a href="#"><i class="fa fa-calendar"></i></a>
+            <a href="#"><i class="fa fa-address-book"></i></a>
+            <a href="#"><i class="fa fa-globe"></i></a>
+            <a href="#"><i class="fa fa-trash"></i></a>
+        </div>
+    </div>
+
+</body>
+
+</html>
